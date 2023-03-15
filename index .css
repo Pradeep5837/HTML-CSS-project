@@ -1,0 +1,739 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+
+}
+
+body {
+    background-color: #4d46431d;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+
+}
+
+nav {
+
+    background-color: white;
+    height: 60px;
+    display: flex;
+    padding-top: 18px;
+    justify-content: space-between;
+    padding:18px 115px;
+    color: black;
+    position: fixed;
+    z-index: 1000 !important;
+    width: 100%;
+    overflow: hidden !important;
+    top: 0%;
+    z-index: auto;
+    font-family:  "Roboto", sans-serif;
+}
+
+nav .navbarh1 {
+    margin-left: 105px;
+    color: black;
+}
+
+nav ul {
+    display: inline;
+    color: black !important
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 20px;
+
+    color: black;
+}
+
+nav ul li.icon {
+    border-left: 1px solid rgba(128, 128, 128, 0.64);
+    font-size: 20px;
+    padding-left: 30px;
+    margin-left: 20px;
+}
+
+nav ul li.icon a i {
+    padding-left: 10px;
+    color: rgba(128, 128, 128, 0.662) !important;
+}
+
+nav h1,
+nav ul li a {
+    font-weight: bold;
+    font-size: 12px;
+}
+nav ul li a i{
+    font-weight: 10px !important;
+    font-size: 15px !important;
+    color: rgba(0, 0, 0, 0.484);
+}
+
+nav ul li a:hover {
+    color: #1bbd36;
+}
+
+nav ul li a i:hover {
+    color: #1bbd36 !important ;
+}
+
+/* banner start*/
+section div {
+    position: relative;
+}
+
+.bannerchild {
+    height: 450px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://bootstrapmade.com/demo/templates/Company/assets/img/slide/slide-1.jpg);
+    background-color: rgba(128, 128, 128, 0.679);
+    color: white !important;
+    display: flex;
+    justify-content: center;
+}
+
+.bannerchild div {
+    width: 900px;
+    border-top: 4px solid #1bbd36;
+    background-color: rgba(23, 21, 21, 0.766);
+    position: absolute;
+    bottom: 75px;
+}
+
+.bannerchild div p {
+    margin-top: 10px;
+    padding: 10px 5px;
+    font-size: 12px;
+}
+
+.bannerchild div h1 {
+    margin-top: 20px;
+}
+
+.banner-con h1,
+.banner-con p {
+    color: rgba(255, 255, 255, 0.782);
+    margin: 4px 8px;
+}
+
+.banner-con button a {
+    color: rgba(255, 255, 255, 0.782);
+    margin: 0px 0px;
+}
+
+.banner-con button a {
+    padding: 4px 12px;
+}
+
+.button:hover a {
+    background-color: #1bbd36;
+}
+
+.banner div button.button {
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-bottom: 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #1bbd36;
+    background-color: rgba(23, 21, 21, 0.766);
+}
+
+/* content start*/
+#content {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 350px;
+    background-color: white;
+}
+
+#content .content1 {
+    margin: 40px 0px;
+    height: 280px;
+    width: 510px;
+}
+
+#content .content1 h2,
+#content .content1 p {
+    color: rgba(0, 0, 0, 0.727);
+}
+
+#content .content1 h2 {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+#content .content1 p {
+    font-size: 20px;
+}
+
+#content .content2 {
+    margin: 40px 25px;
+    height: 280px;
+    width: 510px;
+    padding: 5px;
+}
+
+#content .content2 ul li {
+    padding-top: 10px;
+    align-content: center;
+    font-size: 12px;
+    list-style: none;
+}
+
+#content .content2 ul {
+    padding-bottom: 20px;
+}
+
+#content .content2 ul li,
+#content .content2 p {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.532);
+}
+
+#content .content2 ul li i {
+    padding-right: 8px;
+}
+
+/* icon box*/
+#iconbox {
+    box-sizing: border-box;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 200px;
+
+}
+
+#iconbox div {
+    width: 350px;
+    height: 300px;
+    margin: 10px 10px;
+    background-color: white;
+
+}
+
+#iconbox div i,
+#iconbox div h3,
+#iconbox div p#p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+
+}
+
+#iconbox div h3 {
+    padding: 20px 0px;
+}
+
+#iconbox div p#p1 {
+    display: flex;
+    align-content: center;
+    padding: 0px 25px;
+}
+
+p#p1 {
+    margin-left: 30px;
+    padding-right: 20px;
+    font-size: 12px;
+}
+
+#iconbox div i {
+    margin-top: 90px;
+    font-size: 25px;
+    margin-left: 43%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+#iconbox div:hover .fa-dribbble {
+    background-color: #47aeff;
+    color: white;
+}
+
+#iconbox div i.fa-dribbble {
+    color: #47aeff;
+}
+
+#iconbox div:hover .fa-file-text-o {
+    background-color: #ffa76e;
+    color: white;
+}
+
+#iconbox div i.fa-file-text-o {
+    color: #ffa76e;
+}
+
+#iconbox div:hover .fa-tachometer {
+    background-color: #e80368;
+    color: white;
+}
+
+#iconbox div i.fa-tachometer {
+    color: #e80368;
+}
+
+#iconbox div:hover .fa-linode {
+    background-color: #ffbb2c;
+    color: white;
+}
+
+#iconbox div i.fa-linode {
+    color: #ffbb2c;
+}
+
+#iconbox div:hover .fa-desktop {
+    background-color: #ff5828;
+    color: white;
+}
+
+#iconbox div i.fa-desktop {
+    color: #ff5828;
+}
+
+#iconbox div:hover .fa-binoculars {
+    background-color: #11dbcf;
+    color: white;
+}
+
+#iconbox div i.fa-binoculars {
+    color: #11dbcf;
+}
+
+/* image box start*/
+
+#imagebox {
+    margin-top: 150px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.69);
+}
+
+#imagebox div {
+
+    display: flex;
+    position: relative;
+}
+
+#imagebox #tab {
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+#imagebox #tab a {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    font-size: 13px;
+}
+
+#tab #tab1 {
+    background-color: #1bbd36;
+}
+
+#tab2:hover {
+    background-color: #1bbd36;
+}
+
+#tab3:hover {
+    background-color: #1bbd36;
+}
+
+#tab4:hover {
+    background-color: #1bbd36;
+}
+
+#tab #tab1,
+#tab #tab2,
+#tab #tab3,
+#tab #tab4 {
+    width: 60px;
+    padding: 2px 15px !important;
+
+    display: flex;
+    align-content: center !important;
+    margin-left: 25px;
+    border-radius: 2px;
+}
+
+#imagebox div#image {
+    margin: 10px 190px;
+    height: 900px;
+
+}
+
+#imagebox div#image img {
+    padding: 0px 10px;
+}
+
+
+section div .hidden1 {
+    box-sizing: border-box;
+    width: 380px;
+    height: 350px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    flex-wrap: nowrap !important;
+}
+
+section div #img1 {
+    width: 380px;
+    height: 350px;
+}
+
+section div .hidden2 {
+    box-sizing: border-box;
+    height: 268px;
+    width: 380px;
+    position: absolute;
+    top: 0%;
+    left: 33.5%;
+    flex-wrap: nowrap !important;
+}
+
+section div .hidden2 #img2 {
+    width: 380px;
+    height: 268px;
+}
+
+section div .hidden3 {
+    height: 175px;
+    width: 380px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+section div .hidden3 #img3 {
+    height: 175px;
+    width: 380px;
+}
+
+section div .hidden4 {
+    height: 420px;
+    width: 380px;
+    position: absolute;
+    bottom: 12%;
+    left: 0%;
+}
+
+section div #img4 {
+    height: 420px;
+    width: 380px;
+}
+
+section div .hidden5 {
+    height: 365px;
+    width: 320px;
+    position: absolute;
+    bottom: 27%;
+    left: 33.5%;
+}
+
+section div #img5 {
+    height: 365px;
+    width: 380px;
+}
+
+section div .hidden6 {
+    height: 195px;
+    width: 380px;
+    position: absolute;
+    bottom: 57%;
+    right: 0%;
+}
+
+section div #img6 {
+    height: 195px;
+    width: 380px;
+}
+
+section div .hidden7 {
+    height: 205px;
+    width: 380px;
+    position: absolute;
+    bottom: 2%;
+    right: 33.5%;
+}
+
+section div #img7 {
+    height: 205px;
+    width: 380px;
+}
+
+section div .hidden8 {
+    height: 205px;
+    width: 380px;
+    position: absolute;
+    bottom: 7%;
+    right: 0%;
+}
+
+section div #img8 {
+    height: 205px;
+    width: 380px;
+}
+
+section div .hidden9 {
+    height: 210px;
+    width: 380px;
+    position: absolute;
+    bottom: 32%;
+    right: 0%;
+
+}
+
+section div #img9 {
+    height: 210px;
+    width: 380px;
+
+}
+
+#hiddentab {
+    position: relative;
+    bottom: 80px;
+    left: 36px;
+    padding: 10px 10px;
+    width: 250px;
+    height: 60px;
+    background-color: white;
+    font-size: 15px;
+    visibility: hidden;
+
+}
+
+#hiddentab h3 {
+    padding-right: 50px;
+
+}
+
+#hiddentab h5 {
+    position: absolute;
+    bottom: 10%;
+
+}
+
+#hiddentab p {
+    padding-left: 20px;
+    position: absolute;
+    right: 0%;
+    top: 35%;
+}
+
+#hiddentab p .fa {
+    padding-right: 10px;
+}
+
+section div .hidden1:hover #hiddentab {
+    visibility: visible;
+
+}
+
+section div .hidden2:hover #hiddentab {
+    visibility: visible;
+}
+
+section div .hidden3:hover #hiddentab {
+    visibility: visible;
+}
+
+section div .hidden4:hover #hiddentab {
+    visibility: visible;
+}
+
+section div .hidden5:hover #hiddentab {
+    visibility: visible;
+}
+
+section div .hidden6:hover #hiddentab {
+    visibility: visible;
+}
+
+section div .hidden7:hover #hiddentab {
+    visibility: visible;
+}
+
+section div .hidden8:hover #hiddentab {
+    visibility: visible;
+}
+
+section div .hidden9:hover #hiddentab {
+    visibility: visible;
+}
+
+/* clients start*/
+.clients {
+    padding-left: 70px;
+    padding-top: 50px;
+    background-color: white;
+
+    padding-bottom: 50px;
+
+}
+
+.clients #clients {
+
+    margin-top: 50px !important;
+    padding-top: 0;
+    width: 100%;
+    height: 179px;
+    transition: all 2s;
+    padding: 0px 222px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.clients h1 {
+    margin-bottom: 40px;
+    margin-left: 260px;
+    padding-left: 355px;
+}
+
+.clients #clients img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 25px 40px;
+    transition: all 0.3s;
+    width: 250px;
+    height: 81px;
+    margin: -50px 0% !important;
+    filter: grayscale(100);
+    margin-bottom: -2px;
+}
+
+.clients .img {
+
+    box-sizing: border-box;
+    width: 250px;
+    height: 90px;
+    border: 0.01px solid rgba(2, 18, 2, 0.067);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:-10px 0px!important;
+    padding: -10% 0% ;
+
+}
+
+.clients #clients img:hover {
+    filter: none;
+    overflow: hidden !important;
+    scale: 1.1;
+}
+
+/* footer start*/
+section.footer {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: black;
+}
+
+section.footer .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    font-size: 14px;
+    display: block;
+    padding-top: 50px;
+    line-height: 18px;
+    margin: 4% 0%;
+}
+
+.footer .box p#content1 {
+    padding-top: 12px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 85px;
+    color: rgba(255, 255, 255, 0.686);
+
+}
+
+.footer .box h3 {
+    color: white;
+}
+
+.footer .box p {
+    color: rgba(255, 255, 255, 0.708);
+}
+
+.footer .box h4 {
+    color: white;
+}
+
+.footer .box ul li a {
+    color: rgba(255, 255, 255, 0.648);
+    line-height: 35px;
+    list-style: none;
+}
+.footer .box ul li a:hover
+{
+    color: white;
+}
+
+.footer .lbox {
+    height: 300px;
+    width: 265px;
+
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+    padding-top: 50px;
+    line-height: 18px;
+
+}
+
+.footer .lbox p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer .lbox #button {
+    width: 100%;
+
+    position: relative;
+}
+
+.footer .lbox #button input {
+    width: 100%;
+    height: 25px;
+    border-radius: 3px;
+    padding: 10px 0px;
+    border: none;
+}
+
+.footer .lbox #button button {
+
+    position: absolute;
+    right: 0px;
+    height: 25px;
+    border: none;
+    background-color: #1bbd36;
+    padding: 0px 10px;
+    border-radius: 0px 3px 3px 0px;
+
+}
